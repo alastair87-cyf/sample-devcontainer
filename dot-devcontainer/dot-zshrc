@@ -1,0 +1,16 @@
+    source $HOME/.antigen/antigen.zsh
+
+    antigen use oh-my-zsh
+
+    antigen bundle git
+    antigen bundle node
+    antigen bundle npm
+    antigen bundle yarn
+    antigen bundle command-not-found
+    antigen bundle zsh-users/zsh-syntax-highlighting
+
+    antigen theme robbyrussell
+
+    antigen apply
+
+    export PATH=$HOME/.npm-global/bin:$PATH

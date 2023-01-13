@@ -1,0 +1,11 @@
+{
+    "build": { "dockerfile": "Dockerfile" },
+
+    "customizations": {
+        "vscode":{
+            "extensions": ["CodeYourFuture.cyf-extension-pack"]
+        }
+    },
+    
+    "forwardPorts": [3000]
+}
